@@ -82,6 +82,7 @@ p {
   font-family: 'Oswald';
   color: rgb(249, 150, 20);
   border: solid black 2px;
+  cursor: pointer;
 }
 
 /* .game-board-cell:disabled {

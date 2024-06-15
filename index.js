@@ -33,7 +33,7 @@
         "answer": "Maple Hall"
       },
       {
-        "question": "Where did she work in high school?",
+        "question": "Where did she work in college?",
         "answer": "Fred Hutch Cancer Research Center"
       },
       {
@@ -256,21 +256,6 @@
       }
       currGradJson[cell[0]][parseInt(cell[1]) - 1]["complete"] = true;
     })
-  }
-
-  /**
-   * Helper function to return the response's result text if successful, otherwise
-   * returns the rejected Promise result with an error status and corresponding text
-   * @async
-   * @param {object} res - response to check for success/error
-   * @returns {object} - valid response if response was successful, otherwise rejected
-   *                    Promise result
-   */
-  async function statusCheck(res) {
-    if (!res.ok) {
-      throw new Error(await res.text());
-    }
-    return res;
   }
 
   /**
