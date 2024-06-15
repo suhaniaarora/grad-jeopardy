@@ -1,0 +1,36 @@
+<!--
+  hw4 yipper - html
+  do not modify this file
+-->
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Grad Jeopardy!</title>
+    <link rel='stylesheet' href='./styles.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src='./index.js'></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src='img/logo.png' alt='Jeopardy logo'>
+      </div>
+    </header>
+    <main>
+      <section class="choose-grad">
+        <p id="instruction">Choose the graduate!</p>
+        <button class="grad-btn">Ayushi</button>
+        <button class="grad-btn">Sanjana</button>
+      </section>
+      <section id="game-board" class="hidden"></section>
+      <section id="question-answer" class="hidden">
+        <button class="button-6">Back to game board</button>
+        <p id="ans-instr">Press space bar to reveal answer.</p>
+        <p class="question"></p>
+        <p class="answer hidden"></p>
+
+      </section>
+    </main>
+  </body>
+</html>

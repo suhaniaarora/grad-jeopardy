@@ -1,0 +1,149 @@
+body {
+  background-color:#060ce9;
+  font-family: "Oswald";
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 120px;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: large;
+}
+
+#question-answer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#instruction {
+  font-size: xx-large;
+}
+
+#ans-instr {
+  font-size: xx-large;
+}
+
+#game-board p {
+  font-size: 50px;
+  border: black solid 2px;
+  width: 351px;
+  height: 80px;
+  margin-bottom: 0px;
+  border-top: black solid 4px;
+}
+
+.grad-btn {
+  display: block;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  font-size: x-large;
+  font-family: 'Oswald';
+}
+
+.choose-grad {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.category-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  margin-top: -25px;
+  padding: 0px;
+}
+
+.game-board-format {
+  display: flex;
+  justify-content: center;
+}
+
+.game-board-cell {
+  width: 355px;
+  height: 130px;
+  font-size: 75px;
+  background-color: #060ce9;
+  margin: 0px;
+  font-family: 'Oswald';
+  color: rgb(249, 150, 20);
+  border: solid black 2px;
+}
+
+/* .game-board-cell:disabled {
+  background-color: rgb(121, 140, 146);
+  color: white;
+} */
+
+.question {
+  font-size: 75px;
+  font-weight: 600;
+}
+
+.answer {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* CSS */
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: 'Oswald';
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
